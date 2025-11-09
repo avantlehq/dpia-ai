@@ -1,0 +1,30 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Automatisierte DSFA einfach gemacht",
+    "subtitle": "Erstellen Sie DSGVO-konforme Datenschutz-Folgenabschätzungen mit KI-Unterstützung in Minuten, nicht Wochen.",
+    "cta": "DSFA Agent testen",
+    "learnMore": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über DPIA.ai",
+    "description": "Wir helfen Organisationen bei der DSGVO-Compliance durch KI-gestützte Tools für Datenschutz-Folgenabschätzungen."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Wenden Sie sich für Support oder Fragen an unser Team."
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Ein Fehler ist aufgetreten",
+    "back": "Zurück"
+  }
+}

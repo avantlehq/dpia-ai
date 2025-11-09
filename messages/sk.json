@@ -1,0 +1,30 @@
+{
+  "navigation": {
+    "home": "Domov",
+    "about": "O nás",
+    "faq": "Časté otázky",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Automatizované DPIA jednoducho",
+    "subtitle": "Vytvorte GDPR-kompatibilné posúdenie vplyvu na ochranu údajov s pomocou AI za minúty, nie týždne.",
+    "cta": "Vyskúšať DPIA Agent",
+    "learnMore": "Dozvedieť sa viac"
+  },
+  "about": {
+    "title": "O DPIA.ai",
+    "description": "Pomáhame organizáciám dodržiavať GDPR poskytovaním AI nástrojov pre posúdenie vplyvu na ochranu údajov."
+  },
+  "faq": {
+    "title": "Časté otázky"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Obráťte sa na náš tím pre podporu alebo otázky."
+  },
+  "common": {
+    "loading": "Načítava sa...",
+    "error": "Vyskytla sa chyba",
+    "back": "Späť"
+  }
+}

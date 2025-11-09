@@ -1,0 +1,30 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Automated DPIA Made Simple",
+    "subtitle": "Generate GDPR-compliant Data Protection Impact Assessments with AI assistance in minutes, not weeks.",
+    "cta": "Try DPIA Agent",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About DPIA.ai",
+    "description": "We help organizations comply with GDPR by providing AI-powered tools for Data Protection Impact Assessments."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team for support or questions."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back"
+  }
+}
