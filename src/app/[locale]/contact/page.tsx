@@ -1,3 +1,7 @@
+'use client'
+
+export const dynamic = 'force-dynamic'
+
 import { useTranslations } from 'next-intl'
 import { Header } from '../../../components/marketing/header'
 import { Button } from '../../../components/ui/button'
