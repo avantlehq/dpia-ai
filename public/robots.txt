@@ -4,6 +4,3 @@ Allow: /
 
 # Host
 Host: https://dpia.ai
-
-# Sitemaps
-Sitemap: https://dpia.ai/sitemap.xml
