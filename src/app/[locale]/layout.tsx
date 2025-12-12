@@ -5,6 +5,8 @@ import { notFound } from 'next/navigation'
 import { routing } from '../../../i18n/routing'
 import "../globals.css"
 
+export const dynamic = 'force-dynamic'
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
