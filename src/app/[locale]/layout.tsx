@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server'
 import { Inter } from "next/font/google"
 import { notFound } from 'next/navigation'
 import { routing } from '../../../i18n/routing'
+import { Footer } from '../../components/marketing/footer'
 import "../globals.css"
 
 export const dynamic = 'force-dynamic'
@@ -42,7 +43,12 @@ export default async function LocaleLayout({
       </head>
       <body className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <div className="min-h-screen flex flex-col">
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>
