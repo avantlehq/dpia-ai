@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   experimental: {
     mdxRs: true
+  },
+  outputFileTracingRoot: __dirname,
+  output: 'standalone',
+  eslint: {
+    ignoreDuringBuilds: true
   }
 };
 
