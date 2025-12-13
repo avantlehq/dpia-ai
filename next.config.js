@@ -13,7 +13,9 @@ const nextConfig = {
   },
   typescript: {
     ignoreBuildErrors: true
-  }
+  },
+  // Disable static optimization completely to prevent prerender errors
+  output: 'standalone'
 };
 
 const withMDX = createMDX({

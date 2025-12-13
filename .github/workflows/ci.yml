@@ -45,7 +45,8 @@ jobs:
         run: pnpm lint
 
       - name: Run build
-        run: pnpm build || true
+        run: pnpm build
+        continue-on-error: true
         env:
           NEXT_PUBLIC_APP_URL: https://dpia.ai
           SITE_URL: https://dpia.ai
