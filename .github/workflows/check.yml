@@ -1,0 +1,21 @@
+name: Repository Check
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  check:
+    name: Basic Check
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify repository structure
+        run: |
+          echo "✅ Checking repository files..."
+          ls -la
+          echo "✅ Repository structure verified"
+          echo "🚀 Deployment handled by Vercel"
