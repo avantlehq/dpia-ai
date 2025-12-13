@@ -2,6 +2,10 @@
 
 AI-powered marketing website for automated GDPR compliance and Data Protection Impact Assessments.
 
+**🚀 Live Website:** https://dpia.ai  
+**📱 Current Version:** 1.0.1 "Foundation Release"  
+**✅ Status:** Production Ready - Main functionality working on Vercel
+
 ## 🚀 Features
 
 - **Next.js 15** with App Router and TypeScript

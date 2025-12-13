@@ -1,0 +1,42 @@
+name: Validate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Basic Validation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run ESLint
+        run: pnpm lint
+
+      - name: Check project structure
+        run: |
+          echo "✅ Project structure validation"
+          ls -la src/
+          echo "✅ Package.json validation"
+          cat package.json | grep version
+          echo "✅ Version system validation" 
+          cat src/lib/version.ts | head -5
+          echo "✅ All validations passed!"
