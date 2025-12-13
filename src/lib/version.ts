@@ -3,6 +3,16 @@ export const VERSION_NAME = 'Emergency Redirect Fix'
 export const BUILD_DATE = new Date().toISOString()
 
 export const CHANGELOG = {
+  '1.0.4': {
+    date: '2024-12-13',
+    name: 'Emergency Redirect Fix',
+    changes: [
+      '🚨 Fixed application error on root page',
+      '🛡️ Simplified Vercel redirect from regex to simple rule',
+      '⚡ Added safe fallbacks for version imports',
+      '🎯 Emergency deployment for live site stability'
+    ]
+  },
   '1.0.3': {
     date: '2024-12-13',
     name: 'Hero Version Display',
