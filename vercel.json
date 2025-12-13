@@ -4,6 +4,13 @@
       "main": true
     }
   },
+  "redirects": [
+    {
+      "source": "/((?!en|sk|de).*)",
+      "destination": "/en",
+      "permanent": false
+    }
+  ],
   "framework": "nextjs",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",

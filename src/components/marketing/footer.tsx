@@ -1,3 +1,5 @@
+'use client'
+
 import { VERSION, VERSION_NAME } from '../../lib/version'
 
 export function Footer() {
