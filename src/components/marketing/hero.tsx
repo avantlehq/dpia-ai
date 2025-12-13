@@ -12,7 +12,7 @@ export function Hero() {
       <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
         <div className="flex items-center gap-2 mb-4">
           <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 border border-blue-200">
-            v{VERSION} - {VERSION_NAME}
+            v{VERSION || '1.0.3'} - {VERSION_NAME || 'Hero Version Display'}
           </span>
         </div>
         <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">

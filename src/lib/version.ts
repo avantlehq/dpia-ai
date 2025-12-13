@@ -1,5 +1,5 @@
-export const VERSION = '1.0.3'
-export const VERSION_NAME = 'Hero Version Display'
+export const VERSION = '1.0.4'
+export const VERSION_NAME = 'Emergency Redirect Fix'
 export const BUILD_DATE = new Date().toISOString()
 
 export const CHANGELOG = {
