@@ -1,8 +1,18 @@
-export const VERSION = '1.0.2'
-export const VERSION_NAME = 'Redirect Fix'
+export const VERSION = '1.0.3'
+export const VERSION_NAME = 'Hero Version Display'
 export const BUILD_DATE = new Date().toISOString()
 
 export const CHANGELOG = {
+  '1.0.3': {
+    date: '2024-12-13',
+    name: 'Hero Version Display',
+    changes: [
+      '✅ Added prominent version badge in hero section above main title',
+      '✅ Professional blue badge design with version and release name',
+      '✅ Immediately visible version info for users',
+      '⚡ Enhanced user experience with clear versioning'
+    ]
+  },
   '1.0.2': {
     date: '2024-12-13',
     name: 'Redirect Fix',
